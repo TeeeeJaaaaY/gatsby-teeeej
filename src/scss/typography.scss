@@ -1,0 +1,70 @@
+body {
+    color: $white;
+    background-color: $primary-color;
+    font-family: $fonts-sans-serif;
+    font-size: 1rem;
+}
+
+html {
+    font-size: 80%;
+}
+
+h1, h2, h3, h4, h5 {
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-size: 1.25rem;
+    margin-bottom: 1.5625rem;
+}
+
+h4 {
+    margin-bottom: 1.875rem;
+}
+
+h5 {
+    font-size: 1.125rem;
+}
+
+h6 {
+    font-size: 1rem;
+}
+
+a {
+    color: $secondary-color;
+    transition: .3s ease;
+    &:hover {
+        color: rgb(237, 58, 18);
+        text-decoration: none;
+    }
+}
+
+p {
+    line-height: 1.6875rem;
+    margin-bottom: 1.875rem;
+    opacity: .5;
+}
+
+.font-light {
+    font-weight: lighter;
+}
+
+.font-normal {
+    font-weight: normal;
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+small {
+    font-size: .8125rem;
+}

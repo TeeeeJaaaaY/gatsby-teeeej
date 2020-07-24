@@ -1,0 +1,32 @@
+$primary-color: #2f303c;
+$secondary-color: #fd7e14;
+
+$blue: #007bff;
+$indigo: #6610f2;
+$purple: #6f42c1;
+$pink: #e83e8c;
+$red: #dc3545;
+$orange: $secondary-color;
+$yellow: #ffc107;
+$green: #28a745;
+$teal: #20c997;
+$cyan: #17a2b8;
+$white: #fff;
+$off-white: #f8f9fa;
+$grey: #6c757d;
+$grey-dark: #343a40;
+$success: $green;
+$info: $cyan;
+$warning: $yellow;
+$danger: $red;
+$light: $off-white;
+$dark: $primary-color;
+
+$fonts-sans-serif: 'Roboto', sans-serif;
+$fonts-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+
+$xs: 0;
+$sm: 576px;
+$md: 768px;
+$lg: 992px;
+$xl: 1200px;
