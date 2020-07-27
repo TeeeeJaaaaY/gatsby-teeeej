@@ -1,22 +1,20 @@
-import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
+import Nav from "../Nav/nav";
 
-import "./Header.module.scss";
+import styles from "./Header.module.scss";
 
 const Header = ({ siteTitle }) => (
-  <header className="container">
-    <div className="row">
-      <div className="col-3">
-        <h1>
-          <Link
-            to="/"
-          >
-            {siteTitle}
-          </Link>
-        </h1>
+  <header className={styles['header']}>
+    <div className={styles['container']}>
+      <div className={styles['row']}>
+        <div className={styles['col-3']}>
+          <h5 className={styles['header__logo']}>TJ</h5>
+        </div>
+        <div className={styles['col-9']}>
+          <Nav></Nav>
+        </div>
       </div>
-      <div className="col-9"></div>
     </div>
   </header>
 )

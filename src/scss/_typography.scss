@@ -41,6 +41,8 @@ h6 {
 a {
     color: $secondary-color;
     transition: .3s ease;
+    text-decoration: none;
+
     &:hover {
         color: rgb(237, 58, 18);
         text-decoration: none;
@@ -67,4 +69,10 @@ p {
 
 small {
     font-size: .8125rem;
+}
+
+.navigation {
+    a {
+        font-size: 1.2em;
+    }
 }

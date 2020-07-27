@@ -1,5 +1,19 @@
 @import "../../scss/global";
 
-header {
+.header {
     background-color: $white;
+    padding: 1em 0;
+    position: relative;
+
+    &__logo {
+        background-color: $secondary-color;
+        position: absolute;
+        bottom: -70px;
+        font-family: $logo-font;
+        font-weight: bold;
+        font-size: 4em;
+        padding: .2em .5em .1em .35em;
+        line-height: 1;
+        letter-spacing: -6px;
+    }
 }
